@@ -1,0 +1,143 @@
+
+.navbar {
+    background-color: rgb(207, 236, 207);
+    overflow: hidden;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: rgb(172, 214, 172);
+    color: black;
+}
+
+/*-----HEADER------*/
+
+header{
+    background-color: ghostwhite;
+    grid-column: 1/2;
+}
+h1{
+    color:rgb(0, 0, 0);
+    text-align: center;
+}
+
+h3{
+    color:darkgreen;
+}
+
+
+/*-----MAIN GRID------*/
+/*PHONE*/
+@media (min-width: 900px){
+
+.all{
+    
+    display:grid;
+        padding:10px;
+        grid-gap:10px;
+}
+    .Portfolio{
+        display:grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        padding:10px;
+        grid-gap:10px;
+    }
+
+    .one{
+        background-color: darkgreen;
+        padding:15px;
+        max-height: fit-content;
+    }
+    .two{
+        background-color: darkgreen;
+        display: grid;
+        padding:10px;
+        grid-gap:10px;
+    }
+    .three{
+        background-color: darkgreen;
+        padding:15px;
+        max-height: fit-content;
+    }
+    .four{
+        background-color: darkgreen;
+        display: grid;
+        padding:10px;
+        grid-gap:10px;
+    }
+    .five{
+        background-color: darkgreen;
+        padding:15px;
+        max-height: fit-content;
+    }
+    .six{
+        background-color: darkgreen;
+        display: grid;
+        padding:10px;
+        grid-gap:10px;
+    }
+
+
+
+/*ALL*/
+.all{
+    
+    display:grid;
+        padding:10px;
+        grid-gap:10px;
+}
+    .Portfolio{
+        display:grid;
+        grid-template-columns: 1fr 2fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        padding:10px;
+        grid-gap:10px;
+    }
+
+    .one{
+        background-color: rgb(207, 236, 207);
+        padding:15px;
+        max-height: fit-content;
+    }
+    .two{
+        background-color: rgb(207, 236, 207);
+        display: grid;
+        padding:10px;
+        grid-gap:10px;
+    }
+    .three{
+        background-color: rgb(207, 236, 207);
+    }
+    .four{
+        background-color: rgb(207, 236, 207);
+    }
+    .five{
+        background-color: rgb(207, 236, 207);
+    }
+    .six{
+        background-color: rgb(207, 236, 207);
+}
+}
+    
+
+/*-----FOOTER------*/
+
+footer{
+    background-color: rgb(0, 0, 0);
+    color:aliceblue;
+    text-align: center;
+    width: 100%;
+    height: 100px;
+}
+
+@supports (grid-area: auto){
+
+}
